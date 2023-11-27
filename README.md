@@ -33,7 +33,7 @@ While Destructuring an Array we can use custom name
 const [cat,dog] = animals;
 ```
 
-while Destructuring an Object uou should use same name 
+while Destructuring an Object you should use same name 
 ```
 const {name, sound} = cat;
 ```
