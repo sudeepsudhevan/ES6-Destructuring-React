@@ -1,5 +1,6 @@
 # ES6-Destructuring-React
 
+Sample How the useState Hook Works with local example
 ```
 function useAnimals(animal) {
   return [
