@@ -2,6 +2,13 @@
 
 Sample How the useState Hook Works with local example
 ```
+const animals = [
+  { name: "cat", sound: "meow", feedingRequirements:{
+    food:2,
+    water:3
+  } },
+  { name: "dog", sound: "woof" }
+];
 function useAnimals(animal) {
   return [
     animal.name,
@@ -20,4 +27,18 @@ const [animal, makeSound]= useAnimals(cat)
 
 console.log(animal);
 makeSound()
+```
+While Destructuring an Array we can use custom name
+```
+const [cat,dog] = animals;
+```
+
+while Destructuring an Object uou should use same name 
+```
+const {name: catName, sound: catSound} = cat;
+```
+
+we can change name by using like this
+```
+const {feedingRequirements:{food,water}} = cat;
 ```
