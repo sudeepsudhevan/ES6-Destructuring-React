@@ -35,10 +35,15 @@ const [cat,dog] = animals;
 
 while Destructuring an Object uou should use same name 
 ```
-const {name: catName, sound: catSound} = cat;
+const {name, sound} = cat;
 ```
 
 we can change name by using like this
+```
+const {name: catName, sound: catSound} = cat;
+```
+
+Go further into the Sample by using like this
 ```
 const {feedingRequirements:{food,water}} = cat;
 ```
