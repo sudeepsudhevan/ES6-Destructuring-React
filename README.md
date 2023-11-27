@@ -1,6 +1,6 @@
 # ES6-Destructuring-React
 
-Sample How the useState Hook Works with local example
+Sample How the useState Hook Works, understanding with local example
 ```
 const animals = [
   { name: "cat", sound: "meow", feedingRequirements:{
