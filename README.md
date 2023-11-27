@@ -38,12 +38,12 @@ while Destructuring an Object uou should use same name
 const {name, sound} = cat;
 ```
 
-we can change name by using like this
+* we can change name by using like this
 ```
 const {name: catName, sound: catSound} = cat;
 ```
 
-Go further into the Sample by using like this
+* Go further into the Sample by using like this
 ```
 const {feedingRequirements:{food,water}} = cat;
 ```
